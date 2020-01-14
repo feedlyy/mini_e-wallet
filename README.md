@@ -86,3 +86,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 5. Generate a random key with artisan command php artisan key:generate
 6. Migrate the tables to database and seeder php artisan migrate:fresh --seed
 7. For symlinking the storage folder for file uploads, use: php artisan storage:link
+
+## How to use
+
+use account for authentication api:
+1. email:asd@gmail.com, password:testing123
+2. email:asd2@gmail.com, password:testing1234
+
+Full list of api:  
