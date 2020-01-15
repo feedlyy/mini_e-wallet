@@ -89,6 +89,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## How to use
 
+Run server: php artisan serve
+
 use account for authentication api:
 1. email:asd@gmail.com, password:testing123
 2. email:asd2@gmail.com, password:testing1234
