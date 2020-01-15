@@ -96,3 +96,4 @@ use account for authentication api:
 2. email:asd2@gmail.com, password:testing1234
 
 Full list of api:  
+project folder ->routes->api.php
