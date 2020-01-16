@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507e263b-e51c-4ccd-a144-a68df3aff0da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mini_e-wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_e-wallet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_14_151628_create_user_balance.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_14_151628_create_user_balance.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/UserBalanceTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserBalanceTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tugas-akhir" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -162,7 +163,7 @@
       <workItem from="1579006852717" duration="9993000" />
       <workItem from="1579064260201" duration="4158000" />
       <workItem from="1579137874156" duration="145000" />
-      <workItem from="1579138341161" duration="727000" />
+      <workItem from="1579138341161" duration="4089000" />
     </task>
     <task id="LOCAL-00001" summary="user added">
       <created>1579013186847</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579068145566</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update user balance seeder">
+      <created>1579141351355</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579141351355</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +293,29 @@
     <MESSAGE value="update readme.md" />
     <MESSAGE value="add api token on users seeder" />
     <MESSAGE value="add api resource, user balance and user balance history" />
-    <option name="LAST_COMMIT_MESSAGE" value="add api resource, user balance and user balance history" />
+    <MESSAGE value="update user balance seeder" />
+    <option name="LAST_COMMIT_MESSAGE" value="update user balance seeder" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579145559534">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1579145559534" />
+    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579145776488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579145776488" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1579141350470">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579141350470" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1579143290673">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579143290673" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1579141352839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579141352839" />
   </component>
 </project>

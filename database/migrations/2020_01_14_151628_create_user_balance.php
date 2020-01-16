@@ -20,7 +20,7 @@ class CreateUserBalance extends Migration
                 ->on('users')->onDelete('cascade')
                 ->onUpdate('cascade');
             $table->integer('balance');
-            $table->string('balance_achieve');
+            $table->integer('balance_achieve');
             $table->timestamps();
         });
     }
