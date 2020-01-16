@@ -16,16 +16,6 @@ class TransferController extends Controller
     //
     public function Transfer(Request $request, $id, $penerima)
     {
-        if (!Auth::check()) {
-            $validator = Validator::make($request->all(), [
-                'balance' => 'required|integer',
-                'balance_achieve' => 'required|integer',
-                'type' => 'required|in:credit,debit'
-            ]);
-
-            if ($validator->fails()) {
-                return response()->json($validator->messages()->first(), 401);
-            }
 
             $sender = UserBalanceModel::query()
                 ->findOrFail($id);
@@ -77,9 +67,6 @@ class TransferController extends Controller
                 ];
                 return response()->json($response);
             }
-        } else {
-            return response()->json(['msg' => 'login first'], 404);
-        }
     }
 
     public function create (Request $request)
