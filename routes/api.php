@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Http\Request;
-use App\Http\Requests\TransferRequest;
-use App\Http\Resources\User_Balance;
 
 
 /*
@@ -19,6 +17,20 @@ use App\Http\Resources\User_Balance;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+//login first, input: email, password
+Route::post('login', 'API\UserController@login');
+//register users
+Route::post('register', 'API\UserController@register');
 
-//request input: balance, balance_achieve, type
-Route::put('/transfer/{id}/{penerima}', 'TransferController@Transfer');
+
+Route::group(['middleware' => 'auth:api'], function(){
+    Route::post('details', 'API\UserController@details');
+    Route::post('logout', 'API\UserController@logout');
+
+    //request input: balance, balance_achieve, type
+    Route::put('/transfer/{id}/{penerima}', 'TransferController@Transfer');
+//    register new user balance
+    Route::post('/registerUserBalance', 'TransferController@create');
+});
+
+

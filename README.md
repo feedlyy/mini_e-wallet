@@ -84,16 +84,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3. Save the file as .env
 4. Install the dependencies: composer install --no-scripts
 5. Generate a random key with artisan command php artisan key:generate
-6. Migrate the tables to database and seeder php artisan migrate:fresh --seed
+6. Migrate the tables to database with artisan command php aritsan migrate
 7. For symlinking the storage folder for file uploads, use: php artisan storage:link
 
 ## How to use
 
-Run server: php artisan serve
-
-use account for authentication api:
-1. email:asd@gmail.com, password:testing123
-2. email:asd2@gmail.com, password:testing1234
+1. Run server: php artisan serve
+2. create account first with localhost:8000/api/register
+3. run php artisan db:seed
 
 Full list of api:  
 project folder ->routes->api.php

@@ -22,10 +22,5 @@ class UserBalanceTableSeeder extends Seeder
             'balance' => 15000,
             'balance_achieve' => 1
         ]);
-        DB::table('user_balance')->insert([
-            'user_id' => 2,
-            'balance' => 20000,
-            'balance_achieve' => 1
-        ]);
     }
 }
