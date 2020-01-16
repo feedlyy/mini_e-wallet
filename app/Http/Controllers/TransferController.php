@@ -32,7 +32,11 @@ class TransferController extends Controller
         $receiver = UserBalanceModel::query()
             ->findOrFail($penerima);
         if ($request->input('balance') > $sender->balance || $id === $penerima) {
-            return 'saldo tidak cukup atau tidak dapat mengirim ke akun sendiri';
+            return response()->json([
+               'status' => 400,
+               'message' => $request->input('balance') > $sender->balance ?
+                   'saldo tidak cukup' : 'tidak dapat mengirim ke akun sendiri'
+            ]);
         } else {
             $sender->balance -= $request->input('balance');
             $receiver->balance += $request->input('balance');
