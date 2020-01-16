@@ -15,12 +15,17 @@ class UserBalanceTableSeeder extends Seeder
         DB::table('user_balance')->insert([
             'user_id' => 1,
             'balance' => 10000,
-            'balance_achieve' => 'testing'
+            'balance_achieve' => 'balance 1'
+        ]);
+        DB::table('user_balance')->insert([
+            'user_id' => 1,
+            'balance' => 15000,
+            'balance_achieve' => 'balance 2'
         ]);
         DB::table('user_balance')->insert([
             'user_id' => 2,
-            'balance' => 15000,
-            'balance_achieve' => 'testing'
+            'balance' => 20000,
+            'balance_achieve' => 'balance 2'
         ]);
     }
 }
