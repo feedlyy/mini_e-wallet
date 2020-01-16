@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507e263b-e51c-4ccd-a144-a68df3aff0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/mini_e-wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_e-wallet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_14_151628_create_user_balance.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_14_151628_create_user_balance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserBalanceTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserBalanceTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TransferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TransferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +119,10 @@
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/geoip2/geoip2" />
+      <path value="$PROJECT_DIR$/vendor/maxmind/web-service-common" />
+      <path value="$PROJECT_DIR$/vendor/maxmind-db/reader" />
+      <path value="$PROJECT_DIR$/vendor/stevebauman/location" />
     </include_path>
   </component>
   <component name="ProjectId" id="1WO3X0uDnos7KJYY3IRQdWT3Wmu" />
@@ -163,7 +172,7 @@
       <workItem from="1579006852717" duration="9993000" />
       <workItem from="1579064260201" duration="4158000" />
       <workItem from="1579137874156" duration="145000" />
-      <workItem from="1579138341161" duration="4089000" />
+      <workItem from="1579138341161" duration="22331000" />
     </task>
     <task id="LOCAL-00001" summary="user added">
       <created>1579013186847</created>
@@ -263,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579141351355</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add model for user balance and balance history.&#10;create formrequest">
+      <created>1579146125358</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579146125358</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,28 +310,33 @@
     <MESSAGE value="add api token on users seeder" />
     <MESSAGE value="add api resource, user balance and user balance history" />
     <MESSAGE value="update user balance seeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="update user balance seeder" />
+    <MESSAGE value="add model for user balance and balance history.&#10;create formrequest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add model for user balance and balance history.&#10;create formrequest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579145559534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1579145559534" />
-    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579145776488">
+    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579149116323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579145776488" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1579141350470">
+    <state x="371" y="97" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579149116323" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1579146124650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579141350470" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579146124650" />
     <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1579143290673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579143290673" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1579141352839">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1579146127713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579141352839" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579146127713" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579151651990">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579151651990" />
   </component>
 </project>

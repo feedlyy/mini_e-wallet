@@ -25,9 +25,17 @@ class TransferRequest extends FormRequest
     {
         return [
             //
-            'user_id' => 'required',
             'balance' => 'required|integer',
             'balance_achieve' => 'required'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'balance.required' => 'balance is required',
+            'balance_achieve.required'  => 'balance achieve is requried',
+            'balance.integer' => 'balance must be integer'
         ];
     }
 }
