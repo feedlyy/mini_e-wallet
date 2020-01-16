@@ -20,7 +20,6 @@ class TransferController extends Controller
         $validator = Validator::make($request->all(), [
             'balance' => 'required|integer',
             'balance_achieve' => 'required|integer',
-//            'activity' => 'required',
             'type' => 'required|in:credit,debit'
         ]);
 
