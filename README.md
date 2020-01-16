@@ -91,7 +91,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1. Run server: php artisan serve
 2. create account first with localhost:8000/api/register
-3. run php artisan db:seed
+3. run php artisan db:seed for user_balance seeder
 
 Full list of api:  
 project folder ->routes->api.php
